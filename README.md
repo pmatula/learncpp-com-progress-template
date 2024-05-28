@@ -15,6 +15,7 @@ Simple markdown file to track my personal progress using learncpp.com (inspired 
   - [ ] **0.10** - Configuring your compiler: Compiler extensions
   - [ ] **0.11** - Configuring your compiler: Warning and error levels
   - [ ] **0.12** - Configuring your compiler: Choosing a language standard
+  - [ ] **0.13** - What language standard is my compiler using?
 
 - [ ] **Chapter 1** - C++ Basics
   - [ ] **1.1** - Statements and the structure of a program
@@ -76,10 +77,10 @@ Simple markdown file to track my personal progress using learncpp.com (inspired 
 
 - [ ] **Chapter 5** - Constants and Strings
   - [ ] **5.1** - Constant variables (named constants)
-  - [ ] **5.2** - Constant expressions, compile-time const, and runtime const
-  - [ ] **5.3** - Constexpr variables
-  - [ ] **5.4** - Literals
-  - [ ] **5.5** - Numeral systems (decimal, binary, hexadecimal, and octal)
+  - [ ] **5.2** - Literals
+  - [ ] **5.3** - Numeral systems (decimal, binary, hexadecimal, and octal)
+  - [ ] **5.4** - COnstant expressions and compile-time optimization
+  - [ ] **5.5** - Constexpr variables
   - [ ] **5.6** - The conditional operator
   - [ ] **5.7** - Inline functions and variables
   - [ ] **5.8** - Constexpr and consteval functions
@@ -133,17 +134,19 @@ Simple markdown file to track my personal progress using learncpp.com (inspired 
   - [ ] **8.10** - For statements
   - [ ] **8.11** - Break and continue
   - [ ] **8.12** - Halts (exiting your program early)
-  - [ ] **8.13** - Introduction to testing your code
-  - [ ] **8.14** - Code coverage
-  - [ ] **8.15** - Common semantic errors in C++
-  - [ ] **8.16** - Detecting and handling errors
-  - [ ] **8.17** - std::cin and handling invalid input
-  - [ ] **8.18** - Assert and static_assert
-  - [ ] **8.19** - Introduction to random number generation
-  - [ ] **8.20** - Generating random numbers using Mersenne Twister
+  - [ ] **8.13** - Introduction to random number generation
+  - [ ] **8.14** - Generating random numbers using Mersenne Twister
+  - [ ] **8.15** - Global random numbers (Random.h)
   - [ ] **8.x** - Chapter 8 summary and quiz
 
-**Chapter 9** - (Reserved for future splitting of chapter 8)
+- [ ] **Chapter 9** - Error Detection and Handling
+  - [ ] **9.1** - Introduction to testing your code
+  - [ ] **9.2** - Code coverage
+  - [ ] **9.3** - Common semantic errors in C++
+  - [ ] **9.4** - Detecting and handling errors
+  - [ ] **9.5** - std::cin and handling invalid input
+  - [ ] **9.6** - Assert and static_assert
+  - [ ] **9.x** - Chapter 9 summary and quiz
 
 - [ ] **Chapter 10** - Type Conversion and Function Overloading
   - [ ] **10.1** - Implicit type conversion
@@ -155,18 +158,19 @@ Simple markdown file to track my personal progress using learncpp.com (inspired 
   - [ ] **10.7** - Typedefs and type aliases
   - [ ] **10.8** - Type deduction for objects using the auto keyword
   - [ ] **10.9** - Type deduction for functions
-  - [ ] **10.10** - Introduction to function overloading
-  - [ ] **10.11** - Function overload differentiation
-  - [ ] **10.12** - Function overload resolution and ambiguous matches
-  - [ ] **10.13** - Deleting functions
-  - [ ] **10.14** - Default arguments
-  - [ ] **10.15** - Function templates
-  - [ ] **10.16** - Function template instantiation
-  - [ ] **10.17** - Function templates with multiple template types
-  - [ ] **10.18** - Non-type template parameters
   - [ ] **10.x** - Chapter 10 summary and quiz
 
-**Chapter 11** - (Reserved for future splitting of chapter 10)
+- [ ] **Chapter 11** - Function Overloading and Function Templates
+  - [ ] **11.1** - Introduction to function overloading
+  - [ ] **11.2** - Function overload differentiation
+  - [ ] **11.3** - Function overload resolution and ambiguous matches
+  - [ ] **11.4** - Deleting functions
+  - [ ] **11.5** - Default arguments
+  - [ ] **11.6** - Function templates
+  - [ ] **11.7** - Function template instantiation
+  - [ ] **11.8** - Function templates with multiple template types
+  - [ ] **11.9** - Non-type template parameters
+  - [ ] **11.x** - Chapter 11 summary and quiz
 
 - [ ] **Chapter 12** - Compound Types: References and Pointers
   - [ ] **12.1** - Introduction to compound data types
@@ -183,22 +187,25 @@ Simple markdown file to track my personal progress using learncpp.com (inspired 
   - [ ] **12.12** - Return by reference and return by address
   - [ ] **12.13** - In and out parameters
   - [ ] **12.14** - Type deduction with pointers, references, and const
+  - [ ] **12.15** - std::optional
   - [ ] **12.x** - Chapter 12 summary and quiz
 
 - [ ] **Chapter 13** - Compound Types: Enums and Structs
   - [ ] **13.1** - Introduction to program-defined (user-defined) types
   - [ ] **13.2** - Unscoped enumerations
-  - [ ] **13.3** - Unscoped enumeration input and output
-  - [ ] **13.4** - Scoped enumerations (enum classes)
-  - [ ] **13.5** - Introduction to structs, members, and member selection
-  - [ ] **13.6** - Struct aggregate initialization
-  - [ ] **13.7** - Default member initialization
-  - [ ] **13.8** - Passing and returning structs
-  - [ ] **13.9** - Struct miscellany
-  - [ ] **13.10** - Member selection with pointers and references
-  - [ ] **13.11** - Class templates
-  - [ ] **13.12** - Class template argument deduction (CTAD) and deduction guides
-  - [ ] **13.13** - Alias templates
+  - [ ] **13.3** - Unscoped enumeration integral conversions
+  - [ ] **13.4** - Converting an enumeration to and from a string
+  - [ ] **13.5** - Introduction to overloading the I/O operators
+  - [ ] **13.6** - Scoped enumerations (enum classes)
+  - [ ] **13.7** - Introduction to structs, members, and member selection
+  - [ ] **13.8** - Struct aggregate initialization
+  - [ ] **13.9** - Default member initialization
+  - [ ] **13.10** - Passing and returning structs
+  - [ ] **13.11** - Struct miscellany
+  - [ ] **13.12** - Member selection with pointers and references
+  - [ ] **13.13** - Class templates
+  - [ ] **13.14** - Class template argument deduction (CTAD) and deduction guides
+  - [ ] **13.15** - Alias templates
   - [ ] **13.x** - Chapter 13 summary and quiz
   - [ ] **13.y** - Using a language reference
 
@@ -219,6 +226,7 @@ Simple markdown file to track my personal progress using learncpp.com (inspired 
   - [ ] **14.14** - Introduction to the copy constructor
   - [ ] **14.15** - Class initialization and copy elision
   - [ ] **14.16** - Converting constructors and the explicit keyword
+  - [ ] **14.17** - Constexpr aggregates and classes
   - [ ] **14.x** - Chapter 14 summary and quiz
 
 - [ ] **Chapter 15** - More on Classes
@@ -238,14 +246,15 @@ Simple markdown file to track my personal progress using learncpp.com (inspired 
   - [ ] **16.1** - Introduction to containers and arrays
   - [ ] **16.2** - Introduction to std::vector and list constructors
   - [ ] **16.3** - std::vector and the unsigned length and subscript problem
-  - [ ] **16.4** - Passing and returning std::vector, and an introduction to move semantics
-  - [ ] **16.5** - Arrays and loops
-  - [ ] **16.6** - Arrays, loops, and sign challenge solutions
-  - [ ] **16.7** - Range-based for loops (for-each)
-  - [ ] **16.8** - Array indexing and length using enumerators
-  - [ ] **16.9** - std::vector resizing and capacity
-  - [ ] **16.10** - std::vector and stack behavior
-  - [ ] **16.11** - std::vector<bool>
+  - [ ] **16.4** - Passing std::vector
+  - [ ] **16.5** - Returning std::vector, and an introduction to move semantics
+  - [ ] **16.6** - Arrays and loops
+  - [ ] **16.7** - Arrays, loops, and sign challenge solutions
+  - [ ] **16.8** - Range-based for loops (for-each)
+  - [ ] **16.9** - Array indexing and length using enumerators
+  - [ ] **16.10** - std::vector resizing and capacity
+  - [ ] **16.11** - std::vector and stack behavior
+  - [ ] **16.12** - std::vector<bool>
   - [ ] **16.x** - Chapter 16 summary and quiz
 
 - [ ] **Chapter 17** - Fixed-size arrays: std::array and C-style arrays
@@ -267,8 +276,8 @@ Simple markdown file to track my personal progress using learncpp.com (inspired 
 - [ ] **Chapter 18** - Iterators and Algorithms (under construction)
   - [ ] **18.1** - Sorting an array using selection sort
   - [ ] **18.2** - Introduction to iterators
-  - [ ] **18.3** - Passing and returning std::array
-  - [ ] **18.4** - std::array of class types, and brace elision
+  - [ ] **18.3** - Introduction to standard library algorithms
+  - [ ] **18.4** - Timing your code
 
 - [ ] **Chapter 19** - Dynamic Allocation (under construction)
   - [ ] **19.1** - Dynamic memory allocation with new and delete
@@ -393,6 +402,7 @@ Simple markdown file to track my personal progress using learncpp.com (inspired 
   - [ ] **B.2** - Introduction to C++14
   - [ ] **B.3** - Introduction to C++17
   - [ ] **B.4** - Introduction to C++20
+  - [ ] **B.5** - Introduction to C++23
 
 - [ ] **Appendix C** - The End
   - [ ] **C.1** - The end?
