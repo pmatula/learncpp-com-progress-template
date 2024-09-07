@@ -121,7 +121,7 @@ Simple markdown file to track my personal progress using learncpp.com (inspired 
   - [ ] **7.13** - Unnamed and inline namespaces
   - [ ] **7.x** - Chapter 7 summary and quiz
 
-- [ ] **Chapter 8** - Control Flow and Error Handling
+- [ ] **Chapter 8** - Control Flow
   - [ ] **8.1** - Control flow introduction
   - [ ] **8.2** - If statements and blocks
   - [ ] **8.3** - Common if statement problems
@@ -168,8 +168,9 @@ Simple markdown file to track my personal progress using learncpp.com (inspired 
   - [ ] **11.5** - Default arguments
   - [ ] **11.6** - Function templates
   - [ ] **11.7** - Function template instantiation
-  - [ ] **11.8** - Function templates with multiple template types
-  - [ ] **11.9** - Non-type template parameters
+  - [ ] **11.8** - Function templates templates in multiple files
+  - [ ] **11.9** - Function templates with multiple template types
+  - [ ] **11.10** - Non-type template parameters
   - [ ] **11.x** - Chapter 11 summary and quiz
 
 - [ ] **Chapter 12** - Compound Types: References and Pointers
